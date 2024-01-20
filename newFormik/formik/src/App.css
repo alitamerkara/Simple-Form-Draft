@@ -1,0 +1,72 @@
+body{
+  background-color: rgb(12, 39, 62);
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+.form{
+  width: 500px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+.inputs{
+  color: white;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.inputs input, select{
+  width: 98%;
+  padding: 15px 10px;
+  background-color: rgb(18, 18, 78);
+  border: none;
+  color: rgb(148, 148, 148);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.inputs label{
+  margin-bottom: 10px;
+}
+.inputs input:focus{
+  border: 1px solid blue;
+}
+.container .button{
+width: 100%;
+background-color: green;
+color: white;
+padding: 15px;
+font-size: 1rem;
+font-weight: bold;
+border: none;
+cursor: pointer;
+margin: 10px 0px;
+border-radius: 10px;
+}
+.error{
+
+  color: red;
+}
+.link{
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.checkbox{
+  margin: 20px 10px;
+}
+.checkbox input{
+  margin-right: 10px;
+}
